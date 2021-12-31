@@ -1,5 +1,5 @@
 name: ShulkerSpawn
-version: 1.0.0
+version: 1.0.1
 main: io.github.lytraxe.shulkerspawn.ShulkerSpawn
 api-version: 1.16
 description: Respawnable shulkers
