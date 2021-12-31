@@ -61,7 +61,7 @@ public class ShulkerSpawn extends JavaPlugin implements Listener {
             sender.sendMessage(ChatColor.GRAY + "Reloaded plugin configuration");
             return true;
         } else if (args.length == 0) {
-            sender.sendMessage(ChatColor.translateAlternateColorCodes('&', "&8---------------[ &3ShulkerSpawn &8]---------------"));
+            sender.sendMessage(ChatColor.translateAlternateColorCodes('&', "&8---------------[ &3" + getDescription().getName() + " &fv" + getDescription().getVersion() + " &8]---------------"));
             sender.sendMessage(ChatColor.translateAlternateColorCodes('&', " &7- Current Shulker SpawnRate: &r" + spawnChance + "%"));
             return true;
         }

@@ -1,2 +1,2 @@
-#Shulker Spawn rate. Value must be an integer between 0 and 100
-SpawnChance: 20
+#SpawnChance: the chance that an enderman spawn will be replaced by shulker (Value must be an integer between 0 and 100. default: 10)
+SpawnChance: 10
