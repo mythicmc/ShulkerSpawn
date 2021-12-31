@@ -1,0 +1,2 @@
+#Shulker Spawn rate. Value must be an integer between 0 and 100
+SpawnChance: 20

@@ -1,0 +1,18 @@
+name: ShulkerSpawn
+version: 1.0.0
+main: io.github.lytraxe.shulkerspawn.ShulkerSpawn
+api-version: 1.16
+description: Respawnable shulkers
+commands:
+  shulkerspawn:
+    description: ShulkerSpawn base command
+    usage: /shulkerspawn (reload)
+    permission: shulkerspawn.admin
+permissions:
+  shulkerspawn.*:
+    default: op
+    children:
+      - shulkerspawn.admin
+  shulkerspawn.admin:
+    default: op
+    description: permission for /shulkerspawn reload
