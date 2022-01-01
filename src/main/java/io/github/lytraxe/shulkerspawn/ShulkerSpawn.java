@@ -28,6 +28,11 @@ public class ShulkerSpawn extends JavaPlugin implements Listener {
     @Override
     public void onDisable() {}
 
+    //-
+    //- Original Author : https://github.com/JoelGodOfwar
+    //- https://github.com/JoelGodOfwar/ShulkerRespawner/blob/master/1.13/src/com/github/joelgodofwar/sr/ShulkerRespawner.java
+    //-
+    
     @EventHandler
     public void onCreatureSpawn(CreatureSpawnEvent event) {
         if (event.getEntity() instanceof Enderman && event.getLocation().getWorld().getEnvironment() == World.Environment.THE_END
