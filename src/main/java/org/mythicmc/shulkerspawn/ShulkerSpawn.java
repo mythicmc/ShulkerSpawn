@@ -1,4 +1,4 @@
-package io.github.lytraxe.shulkerspawn;
+package org.mythicmc.shulkerspawn;
 
 import org.bukkit.ChatColor;
 import org.bukkit.Location;

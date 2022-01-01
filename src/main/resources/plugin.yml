@@ -1,6 +1,6 @@
 name: ShulkerSpawn
 version: 1.0.2
-main: io.github.lytraxe.shulkerspawn.ShulkerSpawn
+main: org.mythicmc.shulkerspawn.ShulkerSpawn
 api-version: 1.16
 description: Respawnable shulkers
 commands:
