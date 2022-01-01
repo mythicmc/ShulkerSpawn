@@ -6,7 +6,7 @@ description: Respawnable shulkers
 commands:
   shulkerspawn:
     description: ShulkerSpawn base command
-    usage: /shulkerspawn (reload)
+    usage: /shulkerspawn (reload/set)
     permission: shulkerspawn.admin
 permissions:
   shulkerspawn.*:
